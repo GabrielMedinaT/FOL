@@ -1,0 +1,59 @@
+/* PrimerosAuxilios.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Transición de opacidad */
+.transition-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.transition-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cambio:hover{
+  background-color: #f2f2f2;
+  color: brown;
+  cursor: pointer;
+}
