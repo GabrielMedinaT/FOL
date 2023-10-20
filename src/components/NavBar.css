@@ -1,39 +1,32 @@
-*,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+
 .Navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    background-color: #ed0505;
-    height: 80px;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #ed0505;
+  width: 98vw;
+  height: 10vh;
+  position: sticky;
+  top: -0;
+  z-index: 999;
 }
 .renders {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .links {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-    stroke: black;
-    transition: all 0.5s ease 0s;
-
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  stroke: black;
+  transition: all 0.5s ease 0s;
 }
 .links:hover {
- transform: scale(1.5);
- cursor: pointer;
+  transform: scale(1.5);
+  cursor: pointer;
 }

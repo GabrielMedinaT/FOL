@@ -6,7 +6,7 @@ const PrimerosAuxilios = () => {
   const [ver, setVer] = useState(false);
 
   return (
-    <div>
+    <div className="container">
       <h1>Primeros Auxilios</h1>
       <h2 className="cambio" onClick={() => setVer(!ver)}>
         Metodo PAS

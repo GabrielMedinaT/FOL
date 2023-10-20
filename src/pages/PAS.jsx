@@ -4,7 +4,11 @@ import "./PAS.css";
 const PAS = () => {
   return (
     <div>
-      <img src="./PASinfografia.jpg" alt="" />
+      <div className="contimagen">
+        {" "}
+        <div className="imagen"></div>
+      </div>
+
       <h1>MÉTODO PAS</h1>
       <p>
         En caso de accidente, hay que tener perfectamente estructurado y

@@ -1,6 +1,28 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 .imagen {
   height: 200px;
-  width: 200px;
+  width: 400px;
   border: solid 1px #000;
+  background-image: url("../resources/images/69.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px #000000a8;
+  transition: all 0.5s;
+  transform: translate(-35vh, 0);
+}
 
+.contimagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 2vh;
 }

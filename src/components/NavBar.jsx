@@ -13,14 +13,14 @@ const NavBar = ({render, setRender } ) => {
         <div onClick={() => changeRender("primeros")} className="links">
           Primeros Auxilios
         </div>
-        <div onClick={() => changeRender("quemaduras")} className="links">
-          Quemaduras
-        </div>
         <div onClick={() => changeRender("heridas")} className="links">
           Heridas
         </div>
         <div onClick={() => changeRender("fracturas")} className="links">
           Fracturas
+        </div>
+        <div onClick={() => changeRender("quemaduras")} className="links">
+          Quemaduras
         </div>
         <div onClick={() => changeRender("reanimacion")} className="links">
           Reanimación
