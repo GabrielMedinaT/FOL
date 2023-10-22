@@ -217,8 +217,6 @@ const Heridas = () => {
         <li>Manipular la herida.</li>
         <li>Intentar retirar cuerpos extraños enclavados.</li>
       </ul>
-
-      <p className="warning">FD-5 2007</p>
     </div>
   );
 };

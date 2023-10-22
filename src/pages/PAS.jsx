@@ -6,9 +6,16 @@ const PAS = () => {
     <div>
       <div className="contimagen">
         {" "}
-        <div className="imagen"></div>
+        <div className="imagen2"></div>
       </div>
-
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/JAgB5RVgHNk?si=0O25wlC6ipqy-A5F"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
       <h1>MÉTODO PAS</h1>
       <p>
         En caso de accidente, hay que tener perfectamente estructurado y

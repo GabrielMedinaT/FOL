@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.imagen {
+.imagen2 {
   height: 200px;
   width: 400px;
   border: solid 1px #000;
@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   box-shadow: 0 10px 10px #000000a8;
   transition: all 0.5s;
-  transform: translate(-35vh, 0);
+  transform: translate(-60vh, 0);
 }
 
 .contimagen {

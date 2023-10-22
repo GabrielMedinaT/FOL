@@ -3,8 +3,16 @@ import "./Fracturas.css";
 
 const Fracturas = () => {
   return (
-    <div>
+    <div className="container">
       <h2 className="frac">Fracturas Óseas</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/1Iv3LaTDIA0?si=d3t_uvN38kQcOI1l"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
       <p>
         Una fractura es la pérdida de continuidad normal de un hueso. Puede ser
         causada por diversos factores como traumatismos, estrés o enfermedades

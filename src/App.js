@@ -5,20 +5,23 @@ import PrimerosAuxilios from "./pages/PrimerosAuxilios";
 import Quemaduras from "./pages/Quemaduras";
 import Heridas from "./pages/Heridas";
 import Fracturas from "./pages/Fracturas";
+import Reanimacion from "./pages/Reanimacion";
 
 function App() {
-  const [render, setRender] = useState("inicio");
+  const [render, setRender] = useState("primeros");
 
   console.log(render);
   return (
     <div className="App">
       <NavBar render={render} setRender={setRender} />
 
-      {render === "inicio" && <h1>Inicio</h1>}
-      {render === "primeros" && <PrimerosAuxilios />}
+      {render === "primeros" && (
+        <PrimerosAuxilios render={render} setRender={setRender} />
+      )}
       {render === "quemaduras" && <Quemaduras />}
       {render === "heridas" && <Heridas />}
       {render === "fracturas" && <Fracturas />}
+      {render === "reanimacion" && < Reanimacion/>}
     </div>
   );
 }
